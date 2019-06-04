@@ -1,0 +1,51 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: Navy;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+
+
+}
+
+img{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+hr.new1 {
+    border-top-color: aqua;
+    border-top: 5 px;
+}
+
+hr.new2 {
+    border-top-color: aqua;
+    border-top: 10 px dashed;
+}
+
+p {
+    display: inline-block;
+    width: 30%;
+}
+
+span3 {
+    color: blueviolet;
+
+}
+
+span {
+    color: green;
+    font-weight: bold;
+    
+}
+.highlight{
+    background-color: #fff2ac;
+    
+}
