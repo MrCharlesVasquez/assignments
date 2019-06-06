@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Where do you want to go?</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <h1>FLY WITH US</h1>
+    <div id="tform">
+        <form id="travelForm">
+            <input type= "text" name= "firstName" placeholder= "First Name">
+            <input type= "text" name= "lastName" placeholder= "Last Name">
+            <input type= "number" name= "age" placeholder="Age">
+<p></p>            
+            <input type="radio" name= "radioInput" value= "Male">Male
+            <input type="radio" name= "radioInput" value= "Female">Female
+<br></br>
+
+            <p>In Flight Meal Choices:</p> 
+            <input type="checkbox" name="diet" value="vegetarian">Vegetarian
+            <input type="checkbox" name="diet" value="Kosher">Kosher
+            <input type="checkbox" name="diet" value="Lactose">Lactose
+            <br></br>
+            
+           <p> Select Departure: </p> 
+                <select name="selectDeparture">
+                <option value="Salt Lake City">Salt Lake City</option>
+                <option value="Paris">Paris</option>
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+            </select>
+<br></br>
+            <p>Select Destination:</p>  
+                    <select name="selectDestination">
+                    <option value="Paris">Paris</option>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                </select>
+<br></br>   
+        <button>"Book Your Destination"</button>
+        </form>
+
+    </div> 
+    <script src="./app.js"></script>
+</body>
+</html>

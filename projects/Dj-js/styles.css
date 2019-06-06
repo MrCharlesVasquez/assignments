@@ -1,0 +1,21 @@
+#box{
+    
+    height: 400px;
+    width: 400px;
+    border: 10px solid lightslategray;
+    background-color: lightslategrey;
+    margin: 60px auto;
+    box-shadow: 20px 20px blueviolet;
+    border-radius: 20px;
+}
+
+#heading{
+    text-align: center;
+    font-family:  'Arial Narrow' ;
+    font-size: 100px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}

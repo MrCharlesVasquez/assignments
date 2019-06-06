@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+.goo {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -19,6 +19,3 @@ console.log(vegetables.concat("3")) // concat "3" added the number 3 to the end 
 
 fruit.push ("")
 
-
-//<!-- France--->
-<div id="french"
