@@ -7,44 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mario Pest Control</title>
 
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet"  href="./styles.css">
 </head>
+
 <h1>Mario Pest Control</h1>
     <h2>Here to stomp-out your pests</h2>
 
 
 <body>
-    <div id="Goo"><p>How many did you catch?</p>
-        <form name= "cost">
-            Goombas: <input type= "number" name= "Goombas">  Price: 5 coins
-        </form>
-    </div>
 
-<br></br>
-
-    <div id="bob"><p>How many did you catch?</p>
-        <form name= "cost">
-            Bob-ombs: <input type= "number" name= "Bobombs" placeholder="Quantity">  Price: 7 coins
-        </form>
-    </div>
-
-<br></br>
-
-    <div id="Cheep"><p>How many did you catch?</p>
-        <form name= "cost">
-            Cheep-Cheeps: <input type= "number" name= "Cheeps">  Price: 11 coins
-        </form>
-    </div>
-<br></br>
-    <button>Submit for total cost!</button>
-
-    <div id="total"></div>
-<br></br>
-
-<footer> <P>Contact me thru email:<a href="mailto:mario@pestcontrol.com">mario@pestcontrol.com</a>.</P>
+    <div id="MarioPestControl">
+        <p>How many did you catch?</p>
+        
+            <form name= "cost">
+                <img src="goomba.png">
+                Goombas <input type= "number" name= "goombas" placeholder="Quantity">  Price: 5 coins
+                <br>
+                Bob-ombs: <input type= "number" name= "bobombs" placeholder="Quantity">  Price: 7 coins
+                <br>
+                Cheep-Cheeps: <input type= "number" name= "cheepCheeps" placeholder="Quantity">  Price: 11 coins
+                <br>
+                <button>Submit for total cost!</button>
+       
+                <div id="price"> How much owed <span id="owe"></span></div>
+            </form>
+    <footer> 
+        <P>Contact me thru email:<a href="mailto:mario@pestcontrol.com">mario@pestcontrol.com</a>.</P>
     </footer>
     
-    
+     
     <script src="./app.js"></script>
 </body>
 </html>

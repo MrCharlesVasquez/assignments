@@ -17,10 +17,10 @@
 #french-white{
     position: relative;
     width: 150px;
-    background-color:azure;
+    background-color: white;
     height: 250px;
     left: 150px;
-    bottom: 180px;
+    bottom: 250px;
 }
 
 #french-red{
@@ -81,6 +81,7 @@
     height: 150px;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 
 #madagascar-green{
@@ -90,4 +91,57 @@
     position: absolute;
     right: 0;
     top: 0;
+}
+
+#switzerland-flag{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    position: relative;
+    margin: 50px;
+    background-color: red;
+}
+
+#switzerland-white1{
+    width: 200px;
+    height: 65px;
+    background-color:white;
+    position: relative;
+    top: 140px;
+    left: 75px;
+}
+
+#switzerland-white2{
+    width: 65px;
+    height: 200px;
+    background-color:white;
+    position: relative;
+    top: 10px;
+    left: 141px;
+}
+
+#Sweden-flag{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(14, 114, 196);
+    margin: 50px;
+    border: 1px solid black;
+}
+
+#Sweden-yellow1{
+    width: 450px;
+    height: 65px;
+    background-color:rgb(245, 209, 49);
+    position: relative;
+    top: 120px;
+    left: 0px;
+}
+
+#Sweden-yellow2{
+    width: 65px;
+    height: 300px;
+    background-color:rgb(245, 209, 49);
+    position: relative;
+    bottom: 65px;
+    left: 145px;
 }

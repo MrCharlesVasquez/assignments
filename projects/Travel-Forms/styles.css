@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20hv;
-    margin: 200px;
+    height: 60hv;
+    margin: 100px;
     color: aliceblue;
 }
 
@@ -26,11 +26,14 @@ p{
 body {
     background-image: url("https://images.trvl-media.com/media/content/expus/graphics/launch/home/tvly/150324_flights-hero-image_1330x742.jpg");
     background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
    }
 
 h1{
     text-align: center;
     color: aliceblue;
+    font-size: 100px;
 
 
 }
