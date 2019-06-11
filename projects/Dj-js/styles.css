@@ -1,7 +1,10 @@
+body{
+    background-color: black;
+}
+
 #box{
     
-    height: 400px;
-    width: 400px;
+   
     border: 10px solid lightslategray;
     background-color: lightslategrey;
     margin: 60px auto;
@@ -18,4 +21,11 @@
 p{
     text-align: center;
     font-size: 20px;
+    color: aqua;
+}
+
+.title{
+    font-style: Bold;
+    font-size: 30px;
+    color: darkmagenta;
 }

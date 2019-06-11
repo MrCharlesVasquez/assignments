@@ -1,13 +1,13 @@
-#tform {
+#t{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60hv;
     margin: 100px;
-    color: aliceblue;
+    color:white;
 }
 
-#travelForm{
+travelForm{
     
     display: flex;
     flex-direction: column; 
@@ -15,17 +15,11 @@
     align-items: center;
     width: 300px;
     height: 20hv;
-
-}
-
-p{
-    border: 5px  azure;
-
 }
 
 body {
     background-image: url("https://images.trvl-media.com/media/content/expus/graphics/launch/home/tvly/150324_flights-hero-image_1330x742.jpg");
-    background-color: #cccccc;
+    background-color: rgb(14, 75, 116);
     background-repeat: no-repeat;
     background-position: center;
    }

@@ -1,5 +1,9 @@
 var cost = document.cost
 
+document.getElementById("myBtn").addEventListener("click", function(){
+    this.style.backgroundColor = "red";
+  });
+
 cost.addEventListener("submit", function(event){
     event.preventDefault()
 
@@ -9,7 +13,8 @@ cost.addEventListener("submit", function(event){
 
  totalSum = (Number(num1) * 5 + Number(num2) * 7 + Number(num3) * 11)
     console.log(totalSum)
-document.getElementById("owe").textContent = totalSum
+document.getElementById("owe").textContent = (totalSum + "  coins")
+
 
 
 })

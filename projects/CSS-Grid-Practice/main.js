@@ -7,3 +7,7 @@ function createAllTheDivs(){
         createAllTheDivs()
     }
 }
+
+
+// flex-direction: row // is similiar to display inline - block
+@Media only screen and (min-width)

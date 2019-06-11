@@ -11,29 +11,51 @@
 </head>
 
 <h1>Mario Pest Control</h1>
-    <h2>Here to stomp-out your pests</h2>
-
+    <h2>"Here to stomp-out your pests"</h2>
+    <h3>How many did you catch?</h3>
 
 <body>
 
-    <div id="MarioPestControl">
-        <p>How many did you catch?</p>
+<div class="flex-container">
         
+            <br>
             <form name= "cost">
-                <img src="goomba.png">
-                Goombas <input type= "number" name= "goombas" placeholder="Quantity">  Price: 5 coins
-                <br>
-                Bob-ombs: <input type= "number" name= "bobombs" placeholder="Quantity">  Price: 7 coins
-                <br>
-                Cheep-Cheeps: <input type= "number" name= "cheepCheeps" placeholder="Quantity">  Price: 11 coins
-                <br>
-                <button>Submit for total cost!</button>
-       
-                <div id="price"> How much owed <span id="owe"></span></div>
+            
+        <div class="Goos">
+               
+                <p><img src="./Pest Images/goomba.png">  Goombas 
+                    <input type= "number" name= "goombas" placeholder="Quantity"> 
+                     Price: 5 coins <img class=gif src="./Pest Images/coin.gif"></p>
+                  
+                </div><br>
+            
+        <div class="Bobs">  
+
+                <P><img src="./Pest Images/Bobombs.png"> Bob-ombs: 
+                    <input type= "number" name= "bobombs" placeholder="Quantity"> 
+                     Price: 7 coins <img class=gif src="./Pest Images/coin.gif"></p>
+    
+                    </div><br>
+
+        <div class="Chees">  
+                
+                <p><img src="./Pest Images/cheep.png"> Cheep-Cheeps: 
+                    <input type= "number" name= "cheepCheeps" placeholder="Quantity">  
+                     Price: 11 coins <img class=gif src="./Pest Images/coin.gif"></p>
+                   
+                </div><br>
+
+
+            <p class="P"><button id="myBtn">Submit for total cost!</button></p>
+                
+                     <span id="owe"></span>
+           
             </form>
-    <footer> 
-        <P>Contact me thru email:<a href="mailto:mario@pestcontrol.com">mario@pestcontrol.com</a>.</P>
-    </footer>
+</div>
+   
+        <footer class="footer">
+            Contact me thru email:<a href="mailto:mario@pestcontrol.com">mario@pestcontrol.com</a>... 
+            <a href="www.MarioPestControl.com">www.MarioPestControl.com</a> ...Address: <Address>123 North Castle Road, Yoshi Island </Address></footer>
     
      
     <script src="./app.js"></script>

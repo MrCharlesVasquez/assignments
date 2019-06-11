@@ -1,13 +1,22 @@
+*{
+   margin:0; 
+}
+body{
+    background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/mario-background-wallpaper-6.jpg");
+    background-size: 1550px;
+    
+}
 
 h1{
     display: flex;
-    width: 100px;
-    height: 100px;
-
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    flex-shrink: unset;
+    color: rgb(22, 112, 75);
 }
 
 h2{
@@ -15,48 +24,127 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 75, 50);
+    margin: 0;
+    padding: 0;
 }
-#goo {
-    
+h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
-    width: 800px;
-    height: 100px;
-    background-color: rgb(44, 119, 148);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 75, 50);
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 img{
+    height: 120px;
+    transform: scaleX(-1);
+    filter: drop-shadow(2px 2px 6px rgb(85, 84, 95));
+    
+}
+
+.gif{
+    height:50px;
+}
+
+.Goos{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%vw ;
+    height: 125px;
+    background-color: rgba(34, 160, 233, 0.671);
+    padding: 10px;
+    border: rgba(4, 125, 196, 0.671) 15px solid;
+    border-style: inset;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 75, 50);
+    font-size: 40px;
+  
+}
+
+.Bobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%vw;
+    height: 125px;
+    background-color: rgba(14, 243, 102, 0.829);
+    padding: 10px;
+    border: rgba(27, 189, 121, 0.829) 15px solid; 
+    border-style: inset;
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 75, 50);
+    font-size: 40px;
+  
+}
+
+.Chees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%vw;
+    height: 125px;
+    background-color: rgba(255, 0, 85, 0.829);
+    padding: 10px;
+    border: rgb(196, 67, 142) 15px solid;
+    border-style: inset;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 54, 37);
+    font-size: 30px;
+  
+}
+
+.P{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: azure
+}
+
+.footer{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 158, 218);
+    border: solid;
+    border-style: inset;
+    border-radius: 10px;
+    
+}
+
+input[type=number] {
+
+    
     width: 100px;
-    
-}
-#bob{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    width: 800px;
-    height: 100px;
-    background-color: rgb(67, 196, 132);
-
-}
-
-#cheep{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    width: 800px;
-    height: 100px;
-    background-color: rgb(196, 67, 142);
-    
-
-}
-
-}
+    position: center;
+    padding: 10px ;
+    box-sizing: border-box;
+    border-bottom: 5px solid rgb(231, 228, 25);
+  }

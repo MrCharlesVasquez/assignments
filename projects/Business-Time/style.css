@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*mobile*/
+#title{
+    display: flex;
+  
+    background-color: rgb(55, 85, 85);
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding: 5px;
+    color: azure;
+    border-style: outset ;
+    border-color:  rgb(81, 172, 172);
+    
+}
+@media screen and (min-width: 300px)and (max-width:899px){
+    
+
+    #moto{
+        width: 100%
+    
+
+}
+
+/* Tablet*/
+@media only screen and (min-width: 700px)and (max-width: 999px;)
+    #title{
+        background-color:  rgb(55, 85, 85);
+    }
+    #moto{
+        width: 100%;
+    }
+}
+
+/* Desktop*/ 
+@media only screen and (min-width: 1100px),(max-width: 2000px){
+    #title{
+
+    }
+    #moto{
+        width: 100%;
+    }
+
+
+}

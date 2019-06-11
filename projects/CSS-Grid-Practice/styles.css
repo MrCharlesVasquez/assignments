@@ -60,10 +60,11 @@
 @media only screen and (max-width: 768px){
 
 .red>div{
-    background-color: 
-    flex-wrap: wrap;
+    
+    display: block;
 }
 
 .blue>div{
 
 }
+
