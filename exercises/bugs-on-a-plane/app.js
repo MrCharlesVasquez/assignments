@@ -12,6 +12,7 @@ airlineForm.addEventListener("submit", function (event){
     var age = airlineForm.age.value;
     var gender = airlineForm.elements.gender.value;
     var location = airlineForm.travelLocation.value;
+    
     var checkboxArr = airlineForm.diet;
     var checkedRestriction = []
 
@@ -34,3 +35,4 @@ window.alert(`
     `)
 
 })
+
