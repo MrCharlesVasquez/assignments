@@ -4,6 +4,7 @@ var shopper = {
     firstName: "Sam",
     lastName: "johnson",
     adult: true,
-    items: [ "apples", "bread", "almond milk", "cereal", "Orange Juice"]
+    groceryCart: [ "apples", "bread", "almond milk", "cereal", "Orange Juice"]
 }
 console.log(shopper.firstName +" "+ shopper.lastName);
+console.log(shopper.groceryCart[1])

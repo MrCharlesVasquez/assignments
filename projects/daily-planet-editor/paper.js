@@ -13,16 +13,16 @@ var enemyName = ["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsd
 
 function whoWins(isThereKryptonite, enemyName){
     if (isThereKryptonite){
-         return "Superman beats " + enemyName + ", of course";
+         return ("Superman beats " + enemyName + ", of course");
         
     } else {
-        return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.";
+        return ("Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.");
     }
 }
 
-for (var i = 0; i<enemyName.length; i++){
+for ( var i = 0 ; i < enemyName.length; i++ ){
     var isThereKryptonite;
-    if (i % 2 === 0) {
+    if ( i % 2 === 0) {
         isThereKryptonite = true;
     } else {
         isThereKryptonite = false;
@@ -32,7 +32,7 @@ for (var i = 0; i<enemyName.length; i++){
 
 function howAttractedIsLoisLaneToMe (){
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Math.random()*10)+1);
+    return Math.floor((Math.random() * 10) +1);
 }
 
 console.log(howAttractedIsLoisLaneToMe());
