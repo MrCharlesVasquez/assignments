@@ -1,0 +1,30 @@
+.todosImg{
+    height: 500px;
+
+    
+
+}
+
+.listDiv{
+    display: inline-block;
+    border: 8px solid rgb(155, 125, 226);
+    border-style: outset;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(232, 221, 250);
+}
+
+#todoDiv{
+
+    padding: 20px;
+    margin: 20px;
+}
+
+form{
+    background-color: rgb(172, 131, 211);
+    padding: 20px;
+    margin: 20px ;
+    border-radius: 10px;
+}
+

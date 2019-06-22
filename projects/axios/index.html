@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>axios</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
-    <form></form>
-    <div id="todo-list"></div>
+   
 
-    <div></div>
-
+    
+    <div>
+        
+    <form name="to-do-form"> 
+        <input type="text" name="title"placeholder="Title"> 
+        <input type="text" name="img"placeholder="Image URL">
+        <input type="number" name="price"placeholder="price">
+        <input type="text" name="description"placeholder="description">
+        
+        <button type="submit"> New Todo</button>
+    </form>
+   
+    </div>
+    <div id="todoDiv"></div>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
-    <script src="./app.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
