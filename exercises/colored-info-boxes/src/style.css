@@ -1,0 +1,33 @@
+body{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle red orange aqua)
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(farthest-corner at 60% 55%,rgb(236, 81, 223),rgb(247, 173, 77),yellow,rgb(253, 106, 21));
+    background-color: rgb(255, 196, 0);
+    color: rgb(45, 157, 172);
+    display: grid;
+    justify-content: center;
+    align-items: center
+    
+
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(closest-side at 60% 55%,rgb(33, 190, 211),rgb(69, 164, 241),rgb(0, 225, 255),rgb(68, 255, 246));
+     background-color: rgb(66, 211, 211);
+    color:white;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(211, 66, 134);
+    color: rgb(255, 185, 56);
+}

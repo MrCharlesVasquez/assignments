@@ -1,0 +1,44 @@
+.Title{
+    background-color: blanchedalmond;
+    display:flex;
+    flex:auto;
+    justify-content: center;
+    padding: 80px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    text-decoration: underline overline rgb(136, 34, 136);
+    margin: 40px;
+    border-radius: 50px;
+    color: salmon
+}
+
+.nameBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 223, 205);
+    padding:10px;
+    margin: 40px;
+    border-radius: 50px;
+}
+
+.name{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+.name{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pets{
+    display: inline-block;
+    
+   
+
+}
+
+

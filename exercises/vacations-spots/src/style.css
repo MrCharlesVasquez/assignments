@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: salmon;
+    padding: 30px;
+    color: beige;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: initial;
+}
+
+.spot{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 20px;
+    padding:20px ;
+    border: outset 5px indianred;
+    border-radius: 10px;
+}
+
+p{
+    display: flex;
+   
+    justify-content: center;
+    padding: 20px;
+}

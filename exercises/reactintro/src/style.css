@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle, rgb(125, 224, 79), rgb(113, 252, 155), rgb(30, 224, 182))
+}
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(93, 218, 176);
+    overflow: hidden;
+    
+    font-family: sans-serif;
+    font-style: lighter;
+    
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: #c0f1e8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    color: azure;
+
+}
+
+h1{
+   display: flex;
+    color: azure;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
