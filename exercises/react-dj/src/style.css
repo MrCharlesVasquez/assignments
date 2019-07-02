@@ -1,0 +1,119 @@
+body{
+    background-image: radial-gradient(circle, rgb(167, 56, 205), #c13475, purple)
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:rgb(143, 252, 252);
+    font-family: lato ;
+    font-style: oblique;
+    font-size: 100px;
+    text-decoration-style: wavy;
+    text-shadow:  #349bc1 10px 10px 15px 
+
+}
+.box{
+    height: 300px;
+    width:  300px;
+    border: 5px solid blueviolet;
+    margin:20px;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 20px 10px 10px 10px rgb(121, 48, 115)
+
+}
+
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+
+button{
+   
+    display: inline;
+    justify-content: center;
+    color:azure;
+    background-color:rgb(237, 16, 167);
+    border: 5px solid rgb(242, 0, 255);
+    font-size:20px;
+    border-radius: 100px;
+    padding:20px;
+    margin: 30px;
+    margin-left: 30px;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+    position: relative;
+ 
+}
+
+button:hover{
+    padding:15px;
+    font-size: 15px;
+    transition-duration: 1s;
+    
+   
+    
+}
+span{
+    color:black
+}
+
+.purple{
+    color: azure
+}
+
+.PurpB{
+    background-color:rgb(118, 17, 206);
+    border: 5px solid rgb(242, 0, 255);
+}
+
+.blue1{
+    background-color:rgb(35, 174, 233);
+    border: 5px solid rgb(242, 0, 255);
+   
+}
+.blue2{
+    background-color:rgb(35, 174, 233);
+    border: 5px solid rgb(242, 0, 255);
+}
+
+.Blu{
+    color: rgb(0, 238, 255)
+}
+
+.Ble{
+    color: rgb(0, 238, 255)
+}
+
+.standard{
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    opacity: 1;
+
+}   
+
+.houdini{
+    opacity: 0;
+    transition-duration: 1s
+}
+
+.hypnosis{
+    background-image: repeating-radial-gradient(circle, rgb(160, 230, 90) 10px, #48b38f, rgb(215, 103, 215) 50px);
+    transition-duration: 1s
+}
+
+.buttonShrink{
+    height: 100px;
+    width:  100px;
+    border: 5px solid rgb(43, 226, 223); 
+    transition-duration: 1s
+}
+
+
+button:focus{
+    outline:0;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient( rgba(165, 163, 165, 0.673), rgb(239, 239, 242));
+
+  
+    
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgba(234, 249, 249, 0.79);
+   
+    
+}
+
+h1{
+    font-family:sans-serif;
+    font-style: lighter;
+    color:azure;
+    font-size: 100px;
+}
+p{
+    display: grid;
+    grid-column: auto;
+    color: antiquewhite;
+}
+.home{
+    width: 610px;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1559478496-eaef498abbed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: contain;
+    background-attachment: fixed;
+   
+}
+.services{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1551747777-458b63c6ae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed
+   
+}
+.About{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1558191053-c03db2757e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+}
+.A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(35, 37, 70, 0.906);
+    font-size: 30px;
+    margin: 30px;
+    padding: 30px;
+    text-shadow: 2px 2px 2px rgb(255, 251, 251)
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgb(230, 230, 235), rgb(218, 205, 218) );
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    color:azure;
+    padding: 40px;
+   
+}
+
+.footerTag{
+
+    font-size: 20px;
+}

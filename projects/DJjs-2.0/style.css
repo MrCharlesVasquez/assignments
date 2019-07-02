@@ -1,3 +1,7 @@
+body{
+    background-color: antiquewhite;
+}
+
 header{
     display: flex;
     font-size: 200px;
