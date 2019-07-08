@@ -40,13 +40,15 @@ import Author from "./Author"
     
 
     return(
-        <div>
-            <h1 className="img"></h1>
-            <Bloglist />
-            <Title />
-            <SubTitle />
-            <Author />
-                 
+        <div className="container" >
+           <div className="containerInner">
+            <h1 className="img" style={{ backgroundImage: `url("https://blackrockdigital.github.io/startbootstrap-clean-blog/img/home-bg.jpg")`}} >Clean Blog Post</h1>
+               
+                </div> 
+                <Bloglist />
+                <Title />
+                <SubTitle />
+                <Author />
         {mappedBlog}
    
         </div>

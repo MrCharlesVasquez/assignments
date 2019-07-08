@@ -1,5 +1,4 @@
 import React from 'react'
-import SubTitle from './SubTitle'
 
 const Title = (props) => {
 
@@ -7,7 +6,6 @@ const Title = (props) => {
 
     return(
         <div>
-         
             
            
 

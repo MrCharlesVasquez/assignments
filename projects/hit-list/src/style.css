@@ -1,6 +1,9 @@
 *{
     margin:0
 }
+body{
+    background-image: linear-gradient(black, rgb(33, 31, 31))
+}
 
 .header{
     display: flex;

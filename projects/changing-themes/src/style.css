@@ -1,0 +1,111 @@
+*{
+    margin:0
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+}
+a{
+    text-decoration-line: none;
+    color: darkcyan;
+    font-size: 25px;
+}
+
+.a-dark{
+    color: white;
+    font-size: 25px;
+}
+.navBar{
+ color:white;
+ background-color:rgba(159, 215, 121, 0.708);
+ padding: 20px;
+}
+
+.navBar-dark{
+    color:white;
+    background-color:rgba(59, 188, 203, 0.406);
+    padding: 20px;
+   }
+
+.theme-light{
+    
+    background-color: rgb(210, 232, 210)
+}
+
+.theme-dark{
+    background-color: rgb(69, 71, 140);
+    color: azure;
+}
+
+.h1-light{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+
+.h1-dark{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+.h2-light{
+    color:darkcyan;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+
+.h2-dark{
+    color:lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-light{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btn-dark{
+    color:white;
+    background-color:lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main-light{
+    padding: 200px;
+    margin: 200px;
+}
+
+.main-dark{
+    
+    padding: 200px;
+    margin: 200px;
+}
+
+.foot-light{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:rgba(159, 215, 121, 0.708);
+ padding: 20px;
+}
+
+.foot-dark{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:rgba(59, 188, 203, 0.406);
+    padding: 20px;
+}

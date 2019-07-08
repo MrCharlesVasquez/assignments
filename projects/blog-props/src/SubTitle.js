@@ -1,5 +1,5 @@
 import React from 'react'
-import Author from './Author.js'
+
 
 const SubTitle = (props) => {
 
