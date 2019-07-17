@@ -41,10 +41,16 @@ import Author from "./Author"
 
     return(
         <div className="container" >
-           <div className="containerInner">
-            <h1 className="img" style={{ backgroundImage: `url("https://blackrockdigital.github.io/startbootstrap-clean-blog/img/home-bg.jpg")`}} >Clean Blog Post</h1>
                
-                </div> 
+               <div 
+            className="navBar">
+                <a href ="Home" className="a">Home</a>
+                <a href ="About" className="a">About</a>
+                <a href ="Contact" className="a">Contact</a>
+              </div>  
+          
+            <h1 className="img" style={{ backgroundImage: `url("https://blackrockdigital.github.io/startbootstrap-clean-blog/img/home-bg.jpg")`}} >Clean Blog </h1>
+            
                 <Bloglist />
                 <Title />
                 <SubTitle />
@@ -52,6 +58,7 @@ import Author from "./Author"
         {mappedBlog}
    
         </div>
+        
 
     )
 }

@@ -11,6 +11,7 @@ const App = (props) => {
           
             <NavBar/>
             <Main/>
+            {console.log(props.changeTheme)}
             <Footer/>
         </div>
     )

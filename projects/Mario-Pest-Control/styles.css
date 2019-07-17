@@ -3,7 +3,8 @@
 }
 body{
     background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/mario-background-wallpaper-6.jpg");
-    background-size: 1550px;
+   
+    background-size: cover;
     
 }
 

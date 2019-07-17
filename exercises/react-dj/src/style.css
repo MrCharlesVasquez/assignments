@@ -117,3 +117,10 @@ span{
 button:focus{
     outline:0;
 }
+
+.innerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}

@@ -1,26 +1,31 @@
+*{
+   margin: 0;
+}
 .img{
   
-   height:650px;
+   height:600px;
    background-position: center;
    background-size: cover;
-   background-position-y:-170px;
-   background-color: rgba(0, 0, 0, 0.077);
+   background-repeat: no-repeat;
+   background-position-y:105;
+   background-blend-mode: darken;
+   background-color: rgba(0, 0, 0, 0.358);
    position: relative;
    z-index: 0;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: Open Sans;
+   /* @font-face{
+      src: url("https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN8rsOUuhpKKSTjw.woff2");
+   }; */
+
+   font-size: 120px;
+  
    
 }   
 
-.containerOuter{
-    
-   
-}
-.containerInner{
-
-}
-
-h1{
- 
-  
-  
+.navBar{
+   background-image: none;
 }

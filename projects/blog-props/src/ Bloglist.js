@@ -8,6 +8,8 @@ const Bloglist = (props) => {
 
     return (
         <div>
+           
+            
             <Title />
           
        <h1 className="title">{props.title}</h1> 

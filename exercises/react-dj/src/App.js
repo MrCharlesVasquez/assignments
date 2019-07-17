@@ -71,7 +71,7 @@ class App extends Component {
     render() {
 
          return (
-            <div>
+            <div className="outerContainer">
                 <h1>DJ REACT BOX</h1>
                 
                 <div className="boxContainer">
@@ -81,8 +81,8 @@ class App extends Component {
                     <Box color={this.state.box3Color} style = {this.state.boxShape} className = {this.state.boxClass}/>
                     <Box color={this.state.box4Color} style = {this.state.boxShape} className = {this.state.boxClass}/>
 
-                </div>
-
+                </div >
+            <div className="innerContainer">
                 <button onClick={this.whiteAndBlack}>White  <span> Black</span></button>
                 <button className="PurpB" onClick={this.purple}> <span className="purple"> Purple</span></button>
                 <button className="blue1" onClick={this.blue1}> <span className="Blu">Blue3</span></button>
@@ -91,7 +91,7 @@ class App extends Component {
                 <button onClick={this.invisible}> Invisibility </button>
                 <button onClick={this.hypnosis}>hypnosis</button>
                 <button onClick={this.buttonShrink}>Button Shrink</button>
-               
+               </div>
             </div>
         )
     }

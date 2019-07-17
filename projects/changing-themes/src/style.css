@@ -23,6 +23,7 @@ a{
  color:white;
  background-color:rgba(159, 215, 121, 0.708);
  padding: 20px;
+ background-blend-mode: color-burn
 }
 
 .navBar-dark{
@@ -32,12 +33,14 @@ a{
    }
 
 .theme-light{
+    background-image: linear-gradient(darkgreen, lightgreen, darkgreen);
     
     background-color: rgb(210, 232, 210)
 }
 
 .theme-dark{
     background-color: rgb(69, 71, 140);
+    background-image: linear-gradient(rgb(4, 49, 117), rgb(69, 168, 201), rgb(0, 57, 100));
     color: azure;
 }
 
@@ -71,10 +74,22 @@ a{
     align-content: center;
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:20px;
+    margin:10px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 5px solid rgb(212, 235, 63);
+    background-color: azure;
+}
 .btn-light{
     display: flex;
     justify-content: center;
     align-content: center;
+    border: 5px solid rgb(212, 235, 63);
 }
 .btn-dark{
     color:white;
@@ -82,16 +97,29 @@ a{
     display: flex;
     justify-content: center;
     align-content: center;
-}
-.main-light{
-    padding: 200px;
-    margin: 200px;
+    border: 5px solid rgb(255, 183, 0);
+ 
 }
 
+.main-light{
+    padding: 200px;
+    margin: 190px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(189, 65, 230);
+    border: 3px solid rgb(225, 0, 255);
+    color:white;
+}
+
+button:focus {
+    outline: none;
+   
+}
 .main-dark{
     
     padding: 200px;
-    margin: 200px;
+    margin: 190px;
 }
 
 .foot-light{
