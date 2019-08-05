@@ -11,7 +11,7 @@ import './style.css'
 class App extends Component {
     constructor() {
         super()
-        this.set = {}
+        this.state = {}
     }
 
 
@@ -24,7 +24,7 @@ class App extends Component {
                     <Switch >
                     
                         <Route exact path="/" component={Home} />
-                    
+                        <Route path="/About" component={About}/>
                         <Route path="/Search" component={Search} />
                         <Route path="/LocateMap" component={LocateMap}/>
                 

@@ -1,0 +1,43 @@
+[
+    {
+        "firstName": "Jabba",
+        "lastName": "The Hut",
+        "living": true,
+        "bountyAmount": 50000,
+        "type": "sith",
+        "_id": 1
+    },
+    {
+        "firstName": "Luke",
+        "lastName": "Skywalker",
+        "living": true,
+        "bountyAmount": 90000,
+        "type": "jedi",
+        "_id": 2
+    },
+    {
+        "firstName": "Darth",
+        "lastName": "Vader",
+        "living": true,
+        "bountyAmount": 120000,
+        "type": "sith",
+        "_id": 3
+    },
+    {
+        "firstName": "Han",
+        "lastName": "Solo",
+        "living": true,
+        "bountyAmount": 25000,
+        "type": "Jedi",
+        "_id": 4
+    },
+    {
+        "firstName": "Obi Won",
+        "lastName": "Konbi",
+        "living": false,
+        "bountyAmount": 100000,
+        "type": "jedi",
+        "_id": 5
+    }
+
+]

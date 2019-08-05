@@ -5,10 +5,10 @@
 
 }
 
-html{
+.navMain{
     
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 5vw);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 5vw);
   }
 
 a{
@@ -60,8 +60,8 @@ a{
 
 .infoBlock{
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 5vw);
     background-color: aliceblue;
     width: 100%;
     position: relative;
@@ -70,6 +70,7 @@ a{
 }
 
 .whiteFill{
+    background-attachment: url('./image/ocean.jpeg');
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
@@ -83,8 +84,15 @@ a{
 
 .container{
 
-    display: flex;
-    justify-content:center;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
+.navBar{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+}
+  

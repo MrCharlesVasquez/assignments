@@ -3,7 +3,7 @@ import logo from "./image/BreweryFinderLogo2.png"
 
 
 
-const About = () => {
+const About = (props) => {
 
     return (
 

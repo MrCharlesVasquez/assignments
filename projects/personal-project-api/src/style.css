@@ -11,12 +11,11 @@
     padding:10px;
     color:white;
      
-    padding:25px;
-    margin:25px;
+    padding:15px;
+    margin:15px;
    
     background-color: rgba(154, 22, 22, 0.358);
-    
-    background-position-y: -200px;
+   
     border-radius: 15px;
     box-shadow: 10px 10px 5px rgba(11, 49, 82, 0.413);
 
@@ -232,10 +231,14 @@ input{
    
 }
 
+.inputArea{
+    display: inline-block
+}
+
 .searchContainer{
     display: grid;
-    grid-template-columns: repeat (10 ,1fr);
-    grid-template-rows: repeat (10 , 5vw);
+    grid-template-columns: repeat (8, 1fr);
+    grid-template-rows: repeat (6 , 5vw);
     background-image: linear-gradient(brown, rgb(216, 82, 52), black)
 }
 
@@ -258,7 +261,7 @@ input{
 }
 
 .gifBeerGrab{
-    width: 1300px;
+    height: 100vh;
     object-fit: fill;
 }
 
@@ -266,11 +269,14 @@ input{
 
 
 .searchBar{
-    grid-column-start: 6;
-    grid-column-end: 14;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center
+    /* grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 20px; */
     
 }
 
@@ -399,8 +405,8 @@ address{
 }
 
 .googleMap{
-        height: 800px;
-        width: 600px;
+        height: 500px;
+        width: 300px;
 }
 
 .footer{
@@ -491,7 +497,7 @@ address{
 
 #mySidenav a {
     position: absolute;
-    left: -100px;
+    left: -50px;
     transition: 0.3s;
     padding: 28px;
     font-family:  'Lobster', cursive;

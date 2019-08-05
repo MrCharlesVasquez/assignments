@@ -5,7 +5,7 @@ const About = () =>{
     return(
         <div className="infoBlock">
              <div className="whiteFill">
-                <p className="aboutInfo">about.</p>
+                <p className="aboutInfo">about</p>
             {/* <img src={ocean} className="oceanTag" alt="surf"></img> */}
             </div>
         </div>
