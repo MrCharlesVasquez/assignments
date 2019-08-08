@@ -61,10 +61,10 @@ a{
 .infoBlock{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 5vw);
+    grid-template-rows: repeat(6, 1fr);
     background-color: aliceblue;
-    width: 100%;
-    position: relative;
+    /* width: 100%; */
+    /* position: absolute; */
     
 
 }
@@ -95,4 +95,12 @@ a{
     grid-template-rows: repeat(6, 1fr);
 
 }
-  
+.profileImgTag{
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    height: 100vh;
+    margin: 20px;
+    border-radius: 100px;
+    grid-template-areas: 
+}
