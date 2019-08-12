@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 const Header = () =>{
     return(
-       
-            <h1 className="title"> Charles Vasquez</h1>
-       
+       <div className="titleContainer">
+            
+        </div>
     )
 }
 

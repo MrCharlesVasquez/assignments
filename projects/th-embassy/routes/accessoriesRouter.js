@@ -5,7 +5,7 @@ const Accessories = require("../models/accessories.js")
 
 // Get All
 accessoriesRouter.get( "/", ( req, res, next ) => {
-    Accessories.find(( err, accessories ) => {
+    Accessories.find({ user: req.user._id },( err, accessories ) => {
         if(err){
             res.status(500)
             return next(err)

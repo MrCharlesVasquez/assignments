@@ -5,102 +5,253 @@
 
 }
 
-.navMain{
-    
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 5vw);
-  }
 
-a{
-    text-decoration: none;
-    font-family: 'Noto Sans JP', sans-serif;
-    color: rgba(164, 164, 177, 0.797);
-    font-size: 10px;
-    
-
- 
-    padding: 30px;
-   
-}
-
-.nav{
-    position: sticky;
-    top: 0;
-    height: 30px;
-    background-color:rgb(255, 255, 255)
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-content: space-around;
-    color:azure;
-    font-family: 'Raleway Dots', cursive;
-    font-size: 20px;
-}
 
 .title{
+    display: flex;
     font-family: 'Encode Sans', sans-serif;
     color: rgb(102, 137, 155);
     font-size: 50px;
-    text-shadow: 3px 3px 7px rgb(163, 210, 216);
-    display: flex;
-    justify-content: center
-    
+    margin: 100px;
+    text-shadow: 3px 3px 7px rgb(163, 210, 216);   
 }
-/* 
-.mainInfo{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 11;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
-.infoBlock{
+.image{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    background-color: aliceblue;
-    /* width: 100%; */
-    /* position: absolute; */
-    
-
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100vw;   
+    background-attachment: fixed;
 }
-
-.whiteFill{
-    background-attachment: url('./image/ocean.jpeg');
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 11;
-    width: 100%;
-    height: 100%;
+.imgTag{
+    background-image: url(./image/image.jpeg);
+ 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
     object-fit: cover;
-    color: lightslategray;
-
+    width: 100vw
+}
+.white{
+    height: 300px;
+    width: 100px;
+    background-color: azure;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    object-fit: cover;
+    width: 100vw
 }
 
-.container{
-
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-}
-
-.navBar{
-    display:grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-
-}
-.profileImgTag{
-    display: flex;
-    justify-self: center;
-    align-content: center;
+.parallax {
+    perspective: 1px;
     height: 100vh;
-    margin: 20px;
-    border-radius: 100px;
-    grid-template-areas: 
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+  }
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: aquamarine;
+    height: 100vh;
+  }
+  .parallax__layer--base {
+    transform: translateZ(0);
+    background-color: rgb(65, 20, 108)
+  }
+  .parallax__layer--back {
+    transform: translateZ(-1px)scale(2);
+    background-image:url("https://images.unsplash.com/photo-1565527891306-59584ec1d524?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    color:whitesmoke
+    
+  }
+  .parallax__layer--deep {
+    transform: translateZ(-2px) scale(3);
+    background-color:rgb(43, 0, 128);
+  }
+  .parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    background-color: blanchedalmond
+  }
+
+.pContainer{
+  background-color: whitesmoke;
+  padding:50px
+}
+
+ .wrapper {
+  background:whitesmoke;
+  padding: 0px
+}
+
+.parallax-img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+
+} 
+
+/* Other styling elements, that are not necessary for the example */
+
+body {
+  margin: 0;
+ 
+}
+
+
+
+h1 {
+  background-color:whitesmoke;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  margin:40px;
+  font-size: 25px;
+  text-align:center;
+  color:rgb(47, 78, 133)
+}
+
+.parallax-img {
+  background-image: url('https://images.unsplash.com/photo-1564066379977-b0434d31d697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+  display: grid;
+  grid-template-columns: repeat( 6, 1fr );
+  grid-template-rows: repeat( 3, 1fr );
+  background-repeat: no-repeat;
+}
+.header1{
+  font-family: lato;
+  font-size: 50px;
+  color: rgb(47, 78, 133);
+}
+.imgProfile{
+    
+    width: 450px;
+    height: 500px;
+    border-radius: 150px;
+    object-fit: initial;
+    box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+}
+
+.profile{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: self-end;
+  margin: 300px 200px 0px 0px
+
+  
+  
+}
+.name{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: right;
+ 
+  
+  color:azure;
+  font-family: lato;
+  font-size:85px;
+  padding: 0px 0px 0px 0px;
+  margin: 50px 100px 0px 0px
+  
+  
+  
+}
+.skillsGrid{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  color: whitesmoke;
+  margin: 0px;
+  font-size: 60px;
+  margin: 250px 200px 0px 200px;
+  font-family: lato;
+  
+}
+.titleSkill{
+  text-decoration: underline;
+  font-size: 35px;
+  margin: 0px 0px 20px 0px;
+
+}
+span{
+  color: azure;
+}
+.skills1{
+  color: azure;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-family: lato;
+  
+  
+
+}
+.skills2{
+  color: azure;
+  font-family: lato;
+
+
+}
+.skills3{
+  color: azure;
+  font-family: lato;
+  align-items: center;
+}
+
+.skills4{
+  align-self: center;
+  justify-self: center;
+  color: azure;
+  font-family: lato;
+  
+
+/*?  FOOTER   */
+}
+ .footer{
+   background-image: linear-gradient(rgba(56, 51, 147, 0.831),rgba(44, 6, 77, 0.879)) ; 
+   padding: 50px;
+   color: azure;
+ }
+.footList{
+  font-size: 40px;
+  font-family: lato;
+}
+
+/*?   link container */
+
+.linkContainer{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  color: whitesmoke;
+  margin: 0px;
+  font-size: 60px;
+  margin: 0px 200px 0px 200px;
+  font-family: lato;
+  
+  
+}
+
+.linkSkill{
+  text-decoration: underline;
+  font-size: 35px;
+  margin: 0px 0px 30px 0px;
 }

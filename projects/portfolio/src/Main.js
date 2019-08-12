@@ -1,20 +1,31 @@
 import React from 'react'
-import Image from './image/DSC01326.jpg'
 
 
-const Main = () =>{
-    return(
-        <div className="infoBlock">
-            <div className="whiteFill" >
-            <div className="profilePic" >
-                            <img src={Image} className="profileImgTag" alt="Profile Pic"></img>
-                        </div> 
-                <p className="mainInfo">Main: The life of Charles.</p>
-          
+
+const Main = () => {
+    return (
+
+
+
+        <div class="parallax">
+            <div class="parallax__group">
+                love
+                <div class="parallax__layer parallax__layer--back">
+                    ... looaiojnasoidnvjkanjksdvnajsknkaj ahsdjk nkjavkjasnvkjavhas   ka n n  kjkhj ahjka bhjk aj akajb hjb hjk hjka a jk
+                    
+         </div>
+                <div class="parallax__layer parallax__layer--base">
+                    ... are 
             </div>
-           
+                </div>
+            <div class="parallax__group">
+                ... special
+                </div>
+                yourself
+            </div>
 
-        </div>
+
+
     )
 }
 

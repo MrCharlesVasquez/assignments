@@ -16,7 +16,17 @@ const accessoriesSchema = new Schema ({
     price:{
         type: Number,
         required: true
-    }
+    },
+    user: {
+        type: Schema.Types.ObjectId,
+        ref: "User",
+        required: true
+    },
+    imgUrl: {
+        type: String,
+        required: true
+
+    } 
 
 })
 

@@ -5,6 +5,12 @@ import NavBar from './NavBar.js';
 import { Switch, Route } from 'react-router-dom';
 import About from './About.js';
 import Footer from './Footer.js'
+import New from './New.js'
+
+
+
+
+
 
 
 
@@ -22,7 +28,7 @@ const App = () => {
 
                 <Route exact path="/" component={Main} />
                 <Route path="/About" component={About} />
-
+                <Route path="/New" component={New} />
             </Switch >
 
 

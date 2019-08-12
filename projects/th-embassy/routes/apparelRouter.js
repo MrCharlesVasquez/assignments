@@ -4,7 +4,7 @@ const Apparel = require("../models/apparel.js")
 
 // Get All
 apparelRouter.get( "/", ( req, res, next ) => {
-    Apparel.find(( err, apparel ) => {
+    Apparel.find({ user: req.user._id }, ( err, apparel ) => {
         if(err){
             res.status(500)
             return next (err)
@@ -34,6 +34,7 @@ apparelRouter.get("/:_id", (req, res, next) => {
 
 // Post
 apparelRouter.post( "/", (req, res, next ) => {
+    req.body.user = req.user._id
     const newApparel = new Apparel(req.body)
     newApparel.save(( err, savedApparel ) => {
         if(err){
