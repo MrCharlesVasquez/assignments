@@ -160,13 +160,12 @@ p {
   grid-row-start: 3;
   grid-row-end: 4;
   justify-self: right;
- 
-  
   color:azure;
   font-family: lato;
   font-size:85px;
   padding: 0px 0px 0px 0px;
-  margin: 50px 100px 0px 0px
+  margin: 50px 100px 0px 0px;
+  /* box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605); */
   
   
   
@@ -184,7 +183,7 @@ p {
   
 }
 .titleSkill{
-  text-decoration: underline;
+ 
   font-size: 35px;
   margin: 0px 0px 20px 0px;
 
@@ -251,7 +250,16 @@ span{
 }
 
 .linkSkill{
-  text-decoration: underline;
+ 
   font-size: 35px;
   margin: 0px 0px 30px 0px;
+}
+
+a{
+  text-decoration: none;
+  color:azure
+}
+
+a:hover{
+  color: lightcoral
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import image from './image/Charles.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJs, faReact, faAdobe, faCss3Alt, faBehanceSquare, fabgithub, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faJs, faReact, faAdobe, faCss3Alt, faBehanceSquare, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
 
@@ -33,20 +33,21 @@ const About = () => {
 
                 <div className="linkContainer">
                 <h2 className="linkSkill"> Links:</h2>
-                <ol className="github">  <FontAwesomeIcon icon={faGithub} /> Github</ol>
-                <ol className="behance">  <FontAwesomeIcon icon={faBehanceSquare} /> Behance</ol>
+                <a href="https://github.com/"> <ol className="github">  <FontAwesomeIcon icon={faGithub} /> Github</ol></a>
+               <a href="https://www.behance.net/applestem8aa84"> <ol className="behance">  <FontAwesomeIcon icon={faBehanceSquare} /> Behance</ol></a>
                 </div>
 
             </div >
             <div className="pContainer">
             <p><h2>Freelancer & Design Consultant</h2> <br/>
-	        Consulted for Pig & A Jelly Jar. Designed the exterior & interior wall murals for their Holladay location	.
-	        Consulted and assisted in local start up brands. <br/>Assisted in creating brand identity, product design, and marketing materials.
+	            Consulted for Pig & A Jelly Jar. Designed the exterior & interior wall murals for their Holladay location	.
+	            Consulted and assisted in local start up brands. <br/>Assisted in creating brand identity, product design, and marketing materials.
             </p>
 
-            <p><h2>Education</h2><br/>Vschool : Salt Lake City, UT - FullStack Bootcamp 2019<br/>
-	State of Utah Real Estate License and Certification 2018<br/>
-	University of Utah , Graphic Design 2004
+            <p><h2>Education</h2><br/>
+                Vschool : Salt Lake City, UT - FullStack Bootcamp 2019<br/>
+	            State of Utah Real Estate License and Certification 2018<br/>
+	            University of Utah , Graphic Design 2004
             </p>
 
             </div>

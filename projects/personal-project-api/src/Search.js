@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import  {Link}  from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Gif from './image/beerGrabLoop.gif'
 
 
@@ -72,18 +72,19 @@ class Search extends Component {
 
                 return (
 
+                    <div className="cardContainer">
+                        <div className="brewery-card" key={brewery.id}>
 
-                    <div className="brewery-card" key={brewery.id}>
+                            <a href={brewery.website_url} className="aTag"> {brewery.name}</a>
 
-                        <a href={brewery.website_url} className="aTag"> {brewery.name}</a>
+                            <h2>City: {brewery.city}, {brewery.state}</h2>
 
-                        <h2>City: {brewery.city}, {brewery.state}</h2>
+                            <Link to={{ pathname: `/LocateMap/${brewery.id}`, state: { ...brewery } }} > Address: {brewery.street} </Link>
 
-                        <Link to={{ pathname: `/LocateMap/${brewery.id}`, state: { ...brewery } }} > Address: {brewery.street} </Link>
+                            <h3>Phone: {`(${brewery.phone.substring(0, 3)}) ${brewery.phone.substring(3, 6)} - ${brewery.phone.substring(6, 10)}`}</h3>
 
-                        <h3>Phone: {`(${brewery.phone.substring(0, 3)}) ${brewery.phone.substring(3, 6)} - ${brewery.phone.substring(6, 10)}`}</h3>
-
-                        <h3>Brewery type: {brewery.brewery_type}</h3>
+                            <h3>Brewery type: {brewery.brewery_type}</h3>
+                        </div>
                     </div>
                 )
             })
@@ -96,18 +97,19 @@ class Search extends Component {
 
 
                 return (
+                    <div className="cardContainer">
+                        <div className="brewery-card" key={brewery.id}>
 
-                    <div className="brewery-card" key={brewery.id}>
+                            <a href={brewery.website_url} className="aTag"> {brewery.name}</a>
 
-                        <a href={brewery.website_url} className="aTag"> {brewery.name}</a>
+                            <h2>City: {brewery.city}, {brewery.state}</h2>
 
-                        <h2>City: {brewery.city}, {brewery.state}</h2>
+                            <Link to={{ pathname: `/LocateMap/${brewery.id}`, state: { ...brewery } }} > <span className="addyLink">Address: <br />{brewery.street}</span> </Link>
 
-                        <Link  to={{ pathname: `/LocateMap/${brewery.id}`, state: { ...brewery } }} > <span className="addyLink">Address: {brewery.street}</span> </Link>
+                            <h3>Phone: {`(${brewery.phone.substring(0, 3)}) ${brewery.phone.substring(3, 6)} - ${brewery.phone.substring(6, 10)}`}</h3>
 
-                        <h3>Phone: {`(${brewery.phone.substring(0, 3)}) ${brewery.phone.substring(3, 6)} - ${brewery.phone.substring(6, 10)}`}</h3>
-
-                        <h3>Brewery type: {brewery.brewery_type}</h3>
+                            <h3>Brewery type: {brewery.brewery_type}</h3>
+                        </div>
                     </div>
                 )
             })
@@ -121,58 +123,58 @@ class Search extends Component {
             <div className="searchContainer" >
 
 
-                <div className="GifGRAB">
-                    <img src={Gif} className="gifBeerGrab" alt="gif Beer Grab" ></img>
-                </div>
 
-              
-                <div className="searchTitle">
-                    <span class="bar">Search</span>
-                </div>
 
-                
+
+                <h1 className="searchTitle">
+                    <h1 class="bar">Search</h1>
+                </h1>
+
+              <div className="gifContainer"><img src={Gif} className="gifBeerGrab" alt="gif Beer Grab" ></img> </div> 
+
 
 
 
                 <form onSubmit={this.handleSubmit} className="searchBar">
-               
-                   <div className="inputArea">
-                    <input
-                        type="text"
-                        name="city"
-                        onChange={this.handleChange}
-                        value={this.state.city}
-                        placeholder='Search by City'
-                        required
-                        onKeyPress={event => {
-                            if (event.key === 'Enter') {
-                                this.getInfo()
-                            }
-                        }}
-                    />
- 
-                    <input
-                        type="text"
-                        name="state"
-                        onChange={this.handleChange}
-                        value={this.state.state}
-                        placeholder='Search by State'
-                        onKeyPress={event => {
-                            if (event.key === 'Enter') {
-                                this.getInfo()
-                            }
-                        }}
-                  />
-                    
+
+                    <div className="inputArea">
+                        <input
+                            type="text"
+                            name="city"
+                            onChange={this.handleChange}
+                            value={this.state.city}
+                            placeholder=' by City'
+                            required
+                            onKeyPress={event => {
+                                if (event.key === 'Enter') {
+                                    this.getInfo()
+                                }
+                            }}
+                        />
+
+                        <input
+                            type="text"
+                            name="state"
+                            onChange={this.handleChange}
+                            value={this.state.state}
+                            placeholder=' by State'
+                            onKeyPress={event => {
+                                if (event.key === 'Enter') {
+                                    this.getInfo()
+                                }
+                            }}
+                        />
+
                     </div>
-
-                    <button onClick ={(this.getInfo)}>Click for Search</button>
+                    <button className="searchBtn" onClick={(this.getInfo)}>Click for Search</button>
                 </form>
-
-
-                {mappedBreweries}
-
-
+                
+                
+             
+                <div className="mapBreweries">
+                    {mappedBreweries}
+                </div>
+               
             </div>
 
 
