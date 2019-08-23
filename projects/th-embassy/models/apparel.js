@@ -8,7 +8,7 @@ const apparelSchema = new Schema ({
     },
     category:{
         type: String,
-        enum: ['unisex', 't-shirt', 'hat', 'bottom','outerwear', 'hoody', 'longsleeve', 'zip-up'],
+        enum: ['unisex', 't-shirt', 'hat', 'bottom','outer-wear', 'hoodie', 'long-sleeve', 'zip-up',"wind-breaker","jacket", "beanie"],
         required: true
     },
     price:{

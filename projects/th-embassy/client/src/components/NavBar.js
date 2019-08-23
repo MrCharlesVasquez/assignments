@@ -8,7 +8,7 @@ const NavBar = props => {
             {token && <button onClick={logout}> Logout </button>}
             
             <Link id="Home" className="menu-item" to="/"> Home </Link>
-            <Link id="profile" className="menu-item" to="/ShopPage"> Shop </Link>
+            <Link id="profile" className="menu-item" to="/shoppage"> Shop </Link>
             <Link id="budget" className="menu-item" to="/checkout"> Checkout </Link>
         </nav>
     )

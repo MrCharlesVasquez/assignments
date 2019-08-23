@@ -8,21 +8,24 @@ const Main = () => {
 
 
         <div class="parallax">
-            <div class="parallax__group">
-                love
-                <div class="parallax__layer parallax__layer--back">
-                    ... looaiojnasoidnvjkanjksdvnajsknkaj ahsdjk nkjavkjasnvkjavhas   ka n n  kjkhj ahjka bhjk aj akajb hjb hjk hjka a jk
-                    
-         </div>
-                <div class="parallax__layer parallax__layer--base">
-                    ... are 
-            </div>
+            
+                <div class="parallax__group">
+
+                        <div class="parallax__layer parallax__layer--back">
+                        ...
+                        </div>
+
+                        <div class="parallax__layer parallax__layer--base">
+                        ... are
+                        </div>
+
                 </div>
-            <div class="parallax__group">
-                ... special
-                </div>
-                yourself
-            </div>
+
+                        <div class="parallax__group">
+                        ... special
+                        </div>
+                    yourself
+        </div>
 
 
 

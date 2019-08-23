@@ -49,12 +49,12 @@ a:hover{
 
 
 .NavBar{
-    background-color:azure;
+    background-color:darkslategray;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 5px;
+    padding: 30px;
     margin: 0px;
     position: sticky;
     top: 0;
@@ -366,15 +366,17 @@ button{
     display: grid;
     grid-template-columns: repeat (10 ,1fr);
     grid-template-rows: repeat (10 , 5vw);
-    background-image: linear-gradient(rgb(37, 160, 113) , rgb(30, 222, 139), rgb(0, 128, 126))
+    background-image: linear-gradient(rgb(37, 160, 113) , rgb(30, 222, 139), rgb(0, 128, 126));
+    position: static;
 }
 
-
+/* 
 .LmapImg {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     object-fit: fill;
-}
+    position: static;
+} */
 
 
 .MugLogo{
@@ -410,6 +412,7 @@ button{
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end:5;
+    position: initial
 }
 
 
@@ -690,7 +693,8 @@ button{
     display: grid;
     grid-template-columns: repeat (10 ,1fr);
     grid-template-rows: repeat (10 , 5vw);
-    background-image: linear-gradient(rgb(37, 160, 113) , rgb(30, 222, 139), rgb(0, 128, 126))
+    background-image: linear-gradient(rgb(37, 160, 113) , rgb(30, 222, 139), rgb(0, 128, 126));
+    position: static;   
 }
 
 
@@ -698,6 +702,7 @@ button{
     width: 100%;
     height: 100%;
     object-fit: fill;
+    position: fixed
 }
 
 
@@ -730,7 +735,7 @@ button{
 .googleMap{
     height: 800px;
     width: 300px;
-    position: relative;
+    position: static;
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 1;

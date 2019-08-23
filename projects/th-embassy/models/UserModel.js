@@ -16,10 +16,6 @@ const userSchema = new Schema ({
     isAdmin: {
         type: Boolean,  // CMS content management system .. site viewed by admin
         default: false
-    },
-    email: {
-        type: String,
-        unique: true,
     }
 })
 

@@ -5,6 +5,8 @@ const Apparel = require("../models/apparel.js")
 // Get All
 apparelRouter.get( "/", ( req, res, next ) => {
     Apparel.find({ user: req.user._id }, ( err, apparel ) => {
+        console.log(req.user._id)
+
         if(err){
             res.status(500)
             return next (err)

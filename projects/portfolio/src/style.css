@@ -72,7 +72,7 @@
   }
   .parallax__layer--deep {
     transform: translateZ(-2px) scale(3);
-    background-color:rgb(43, 0, 128);
+    background-color:rgb(122, 94, 177);
   }
   .parallax__group {
     position: relative;

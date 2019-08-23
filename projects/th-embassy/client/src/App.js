@@ -7,6 +7,8 @@ import ShopPage from "./components/ShopPage.js"
 import ProtectedRoute from "./shared/ProtectedRoute.js"
 import Home from "./components/Home.js"
 import Checkout from "./components/Checkout.js"
+import "./style.css"
+
 
 
 class App extends Component {
@@ -30,7 +32,7 @@ class App extends Component {
 
                     <ProtectedRoute
                         token={token}
-                        path="/ShopPage"
+                        path="/shoppage"
                         redirectTo="/"
                         component={ShopPage}
                         user={user}
@@ -47,7 +49,7 @@ class App extends Component {
 
                     <ProtectedRoute
                         token={token}
-                        path="/Checkout"
+                        path="/checkout"
                         redirectTo="/"
                         component={Checkout}
                         user={user}

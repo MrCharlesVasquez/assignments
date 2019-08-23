@@ -14,6 +14,10 @@ class UserProvider extends Component {
         }
     }
 
+    componentDidMount(){
+        localStorage.setItem("cart", JSON.stringify("[]"))
+    }
+
     signup = credentials => {
         axios.post("/auth/signup", credentials)
             .then(res => {
