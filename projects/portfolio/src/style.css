@@ -1,93 +1,63 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
 }
 
 
 
-.title{
-    display: flex;
-    font-family: 'Encode Sans', sans-serif;
-    color: rgb(102, 137, 155);
-    font-size: 50px;
-    margin: 100px;
-    text-shadow: 3px 3px 7px rgb(163, 210, 216);   
+.title {
+  display: flex;
+  font-family: 'Encode Sans', sans-serif;
+  color: rgb(102, 137, 155);
+  font-size: 50px;
+  margin: 100px;
+  text-shadow: 3px 3px 7px rgb(163, 210, 216);
 }
-.image{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 100vw;   
-    background-attachment: fixed;
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 100vw;
+  background-attachment: fixed;
 }
-.imgTag{
-    background-image: url(./image/image.jpeg);
- 
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    object-fit: cover;
-    width: 100vw
+
+.imgTag {
+  background-image: url(./image/image.jpeg);
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  object-fit: cover;
+  width: 100vw
 }
-.white{
-    height: 300px;
-    width: 100px;
-    background-color: azure;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    object-fit: cover;
-    width: 100vw
+
+.white {
+  height: 300px;
+  width: 100px;
+  background-color: azure;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  object-fit: cover;
+  width: 100vw
 }
 
 .parallax {
-    perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-   
-  }
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: aquamarine;
-    height: 100vh;
-  }
-  .parallax__layer--base {
-    transform: translateZ(0);
-    background-color: rgb(65, 20, 108)
-  }
-  .parallax__layer--back {
-    transform: translateZ(-1px)scale(2);
-    background-image:url("https://images.unsplash.com/photo-1565527891306-59584ec1d524?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
-    color:whitesmoke
-    
-  }
-  .parallax__layer--deep {
-    transform: translateZ(-2px) scale(3);
-    background-color:rgb(122, 94, 177);
-  }
-  .parallax__group {
-    position: relative;
-    height: 100vh;
-    transform-style: preserve-3d;
-    background-color: blanchedalmond
-  }
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 
-.pContainer{
-  background-color: whitesmoke;
-  padding:50px
 }
 
- .wrapper {
-  background:whitesmoke;
+
+.wrapper {
+  /* background:whitesmoke; */
   padding: 0px
 }
 
@@ -96,81 +66,82 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100%;
 
-} 
+}
 
 /* Other styling elements, that are not necessary for the example */
 
 body {
   margin: 0;
- 
+
 }
 
 
 
 h1 {
-  background-color:whitesmoke;
+  /* background-color:whitesmoke; */
   text-align: center;
   padding: 50px;
 }
 
 p {
-  margin:40px;
+  margin: 40px;
   font-size: 25px;
-  text-align:center;
-  color:rgb(47, 78, 133)
+  text-align: center;
+  color: rgb(99, 164, 194)
 }
 
 .parallax-img {
-  background-image: url('https://images.unsplash.com/photo-1564066379977-b0434d31d697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+  background-image: url(./image/w.jpeg);
   display: grid;
-  grid-template-columns: repeat( 6, 1fr );
-  grid-template-rows: repeat( 3, 1fr );
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   background-repeat: no-repeat;
 }
-.header1{
+
+.header1 {
   font-family: lato;
-  font-size: 50px;
-  color: rgb(47, 78, 133);
-}
-.imgProfile{
-    
-    width: 450px;
-    height: 500px;
-    border-radius: 150px;
-    object-fit: initial;
-    box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+  font-size: 100px;
+  color: rgb(64, 138, 172);
 }
 
-.profile{
+.imgProfile {
+
+  width: 450px;
+  height: 500px;
+  border-radius: 150px;
+  object-fit: initial;
+  box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+}
+
+.profile {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
   justify-self: self-end;
   margin: 300px 200px 0px 0px
-
-  
-  
 }
-.name{
+
+.name {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
   justify-self: right;
-  color:azure;
+  color: azure;
   font-family: lato;
-  font-size:85px;
+  font-size: 50px;
   padding: 0px 0px 0px 0px;
   margin: 50px 100px 0px 0px;
   /* box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605); */
-  
-  
-  
+
+
+
 }
-.skillsGrid{
+
+.skillsGrid {
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 1;
@@ -180,62 +151,72 @@ p {
   font-size: 60px;
   margin: 250px 200px 0px 200px;
   font-family: lato;
-  
+
 }
-.titleSkill{
- 
+
+.titleSkill {
+
   font-size: 35px;
   margin: 0px 0px 20px 0px;
 
 }
-span{
+
+span {
   color: azure;
 }
-.skills1{
+
+.skills1 {
   color: azure;
   grid-column-start: 4;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
   font-family: lato;
-  
-  
+
+
 
 }
-.skills2{
+
+.skills2 {
   color: azure;
   font-family: lato;
 
 
 }
-.skills3{
+
+.skills3 {
   color: azure;
   font-family: lato;
   align-items: center;
 }
 
-.skills4{
+.skills4 {
   align-self: center;
   justify-self: center;
   color: azure;
   font-family: lato;
-  
 
-/*?  FOOTER   */
+
+  /*?  FOOTER   */
 }
- .footer{
-   background-image: linear-gradient(rgba(56, 51, 147, 0.831),rgba(44, 6, 77, 0.879)) ; 
-   padding: 50px;
-   color: azure;
- }
-.footList{
+
+.footer {
+  background-image: linear-gradient( rgba(255, 180, 139, 0.94),rgba(130, 183, 193, 0.947));
+  padding: 50px;
+  color: azure;
+  /* position: absolute;
+  bottom: 0;
+  width:100%; */
+}
+
+.footList {
   font-size: 40px;
   font-family: lato;
 }
 
 /*?   link container */
 
-.linkContainer{
+.linkContainer {
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 3;
@@ -245,21 +226,134 @@ span{
   font-size: 60px;
   margin: 0px 200px 0px 200px;
   font-family: lato;
-  
-  
+
+
+}
+.links{
+  color: whitesmoke;
 }
 
-.linkSkill{
+.links:hover {
+  color: lightcoral
+}
  
+.linkSkill {
+
   font-size: 35px;
   margin: 0px 0px 30px 0px;
 }
 
-a{
+a {
   text-decoration: none;
-  color:azure
+  
 }
 
-a:hover{
+#nav{
+  font-size:30px; 
+  color: rgb(59, 98, 165);
+  font-family: lato;
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+#nav a{
+  color: rgb(59, 98, 165);
+}
+#nav a:hover {
   color: lightcoral
+}
+
+a:hover {
+  color: lightcoral
+}
+
+/*?     Projects    */
+
+.parallax-img2 {
+  background-image: url(./image/w.jpeg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  
+
+
+}
+
+.imgTag2 {
+  background-image: url(./image/image.jpeg);
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  object-fit: cover;
+  width: 100vw
+}
+.projectContainer{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+ 
+}
+.Vice {
+  
+  height: 700px;
+  justify-self:center; 
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: initial;
+  box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+
+
+}
+.project1{
+  
+  padding:50px;
+ 
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin: 0px 0px 0px 0px
+}
+
+.Brewery{
+ 
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+
+}
+.project2{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.Mario{
+ 
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+
+}
+
+.project3{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }

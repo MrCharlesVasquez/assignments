@@ -12,7 +12,7 @@ const About = () => {
 
         <div className="wrapper">
 
-            <h1 className="header1">Graphic Artist / Web Developer</h1>
+            <h1 className="header1">Charles Vasquez</h1>
 
             <div className="parallax-img">
 
@@ -21,7 +21,7 @@ const About = () => {
                 <div className="profile" >
                     <img src={image} className="imgProfile" alt="Charles"></img>
                 </div>
-                <h2 className="name">Charles Vasquez</h2>
+                <h2 className="name">Graphic Artist / Web Developer</h2>
 
                 <div className="skillsGrid">
                     <h2 className="titleSkill"> Skills:</h2>
@@ -33,8 +33,8 @@ const About = () => {
 
                 <div className="linkContainer">
                     <h2 className="linkSkill"> Links:</h2>
-                    <a href="https://github.com/"> <ol className="github">  <FontAwesomeIcon icon={faGithub} /> Github</ol></a>
-                    <a href="https://www.behance.net/applestem8aa84"> <ol className="behance">  <FontAwesomeIcon icon={faBehanceSquare} /> Behance</ol></a>
+                    <a href="https://github.com/"> <ol className="links">  <FontAwesomeIcon icon={faGithub} /> Github</ol></a>
+                    <a href="https://www.behance.net/applestem8aa84"> <ol className="links">  <FontAwesomeIcon icon={faBehanceSquare} /> Behance</ol></a>
                 </div>
 
             </div >
