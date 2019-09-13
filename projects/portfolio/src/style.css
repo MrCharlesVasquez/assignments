@@ -272,14 +272,13 @@ a:hover {
 
 .parallax-img2 {
   background-image: url(./image/w.jpeg);
-  height: 100vh;
+  height:100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+ 
+ 
   
 
 
@@ -297,63 +296,108 @@ a:hover {
 }
 .projectContainer{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  
  
 }
 .Vice {
-  
   height: 700px;
-  justify-self:center; 
+  padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
-  object-fit: initial;
+  border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
-
-
+  transition: 500ms
 }
+
+.Vice:hover{
+  height: 725px;
+  transition: ease-in-out, 1s
+}
+/* .V{
+  display:flex;
+  justify-content: center;
+  align-self: center
+}
+.Vr{
+  height: 100px;
+  display:flex;
+  justify-self: top;
+  align-self: top
+
+} */
 .project1{
-  
-  padding:50px;
- 
-  grid-column-start: 1;
-  grid-column-end: 4;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+
+  padding:10px;
+  grid-column-start: 3;
+  grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 3;
   margin: 0px 0px 0px 0px
 }
 
 .Brewery{
- 
+
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+  transition: 500ms
+}
+
+.Brewery:hover{
+
+  height: 725px;
+  transition: ease-in-out, 1s
 
 }
+
 .project2{
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 4;
+
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  margin: 0px 0px 0px 0px;
+  
 }
 
 .Mario{
- 
+
   height: 700px;
+  display: flex;
+  justify-content:center; 
+  align-self: center;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(16, 29, 43, 0.605);
+  transition: 500ms
+
+}
+
+.Mario:hover{
+
+  height: 725px;
+  transition: ease-in-out, 1s
 
 }
 
 .project3{
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 9;
 }

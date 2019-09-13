@@ -143,9 +143,10 @@ span{
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(218, 158, 218);
-    border: solid;
-    position: absolute;
+    padding:10px;
+    position: absolute; 
     bottom: 0;
+    width:100%
     
 }
 
