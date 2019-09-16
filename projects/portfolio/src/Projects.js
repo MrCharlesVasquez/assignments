@@ -34,7 +34,7 @@ const Projects = () => {
 
                     </div>
                 </div >
-                <section>
+                <section className="proSection">
                     hello
                 </section>
 

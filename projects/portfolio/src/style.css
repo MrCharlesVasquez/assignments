@@ -259,9 +259,12 @@ a {
 
 #nav a{
   color: rgb(59, 98, 165);
+  text-underline-position: below
 }
 #nav a:hover {
-  color: lightcoral
+  color: lightcoral;
+  text-decoration-line: underline
+  
 }
 
 a:hover {
@@ -303,10 +306,9 @@ a:hover {
 }
 .Vice {
   height: 700px;
-  padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
   transition: 500ms
 }
@@ -331,8 +333,6 @@ a:hover {
   display: flex;
   justify-self: center;
   align-self: center;
-
-  padding:10px;
   grid-column-start: 3;
   grid-column-end: 8;
   grid-row-start: 1;
@@ -345,7 +345,7 @@ a:hover {
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
   transition: 500ms
 }
@@ -378,7 +378,7 @@ a:hover {
   align-self: center;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 10px 10px 10px rgba(16, 29, 43, 0.605);
   transition: 500ms
 
@@ -400,4 +400,8 @@ a:hover {
   grid-column-end: 8;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+.proSection{
+  height: 200px;
 }
