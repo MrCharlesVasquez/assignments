@@ -50,9 +50,10 @@ button{
 }
 
 button:hover{
-    padding:15px;
-    font-size: 15px;
-    transition-duration: 1s;
+    padding:20px;
+    font-size: 25px;
+    transition-duration: 700ms;
+    color: purple
     
    
 }
@@ -122,4 +123,13 @@ button:focus{
     justify-content: center;
     align-items: center
     
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin:40px;
+    font-size:20px
 }

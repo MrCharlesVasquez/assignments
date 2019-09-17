@@ -408,11 +408,7 @@ button{
 .googleMap{
     height: 800px;
     width: 600px;
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end:5;
-    position: initial
+   
 }
 
 

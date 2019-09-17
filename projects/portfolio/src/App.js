@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import About from './About.js';
 import Footer from './Footer.js'
 import Projects from './Projects.js'
+import Main from './Main.js'
 
 
 
@@ -25,9 +26,9 @@ const App = () => {
 
             <Switch >
 
-              
                 <Route path="/About" component={About} />
                 <Route path="/Projects" component={Projects} />
+                <Route path="/" component={About} />
             </Switch >
 
 
