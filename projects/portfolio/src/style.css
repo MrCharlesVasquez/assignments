@@ -103,14 +103,14 @@ p {
 .header1 {
   font-family: lato;
   font-size: 100px;
-  color: rgb(64, 138, 172);
+  color: rgb(50, 106, 131);
 }
 
 .imgProfile {
 
-  width: 450px;
+  width: 500px;
   height: 500px;
-  border-radius: 150px;
+  border-radius: 250px;
   object-fit: initial;
   box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605);
 }
@@ -258,7 +258,7 @@ a {
 }
 
 #nav a{
-  color: rgb(59, 98, 165);
+  color: rgb(96, 151, 167);
   text-underline-position: below
 }
 #nav a:hover {
@@ -364,7 +364,7 @@ a:hover {
   align-self: center;
   grid-column-start: 3;
   grid-column-end: 8;
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-row-end: 6;
   margin: 0px 0px 0px 0px;
   
@@ -395,13 +395,36 @@ a:hover {
   display: flex;
   justify-self: center;
   align-self: center;
-
   grid-column-start: 3;
   grid-column-end: 8;
-  grid-row-start: 6;
+  grid-row-start: 7;
   grid-row-end: 9;
 }
 
 .proSection{
   height: 200px;
+}
+p{
+  color:rgb(50, 106, 131)
+}
+
+.V{
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.B{
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+.M{
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 9;
+  grid-row-end: 9;
 }
