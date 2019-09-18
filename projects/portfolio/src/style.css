@@ -80,7 +80,7 @@ body {
 
 
 h1 {
-  /* background-color:whitesmoke; */
+  
   text-align: center;
   padding: 50px;
 }
@@ -135,8 +135,7 @@ p {
   font-size: 50px;
   padding: 0px 0px 0px 0px;
   margin: 50px 100px 0px 0px;
-  /* box-shadow: 10px 10px 10px rgba(18, 16, 43, 0.605); */
-
+  
 
 
 }
@@ -204,9 +203,7 @@ span {
   background-image: linear-gradient( rgba(255, 180, 139, 0.94),rgba(130, 183, 193, 0.947));
   padding: 50px;
   color: azure;
-  /* position: absolute;
-  bottom: 0;
-  width:100%; */
+
 }
 
 .footList {
@@ -317,18 +314,7 @@ a:hover {
   height: 725px;
   transition: ease-in-out, 1s
 }
-/* .V{
-  display:flex;
-  justify-content: center;
-  align-self: center
-}
-.Vr{
-  height: 100px;
-  display:flex;
-  justify-self: top;
-  align-self: top
 
-} */
 .project1{
   display: flex;
   justify-self: center;
@@ -337,8 +323,16 @@ a:hover {
   grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 3;
-  margin: 0px 0px 0px 0px
+  margin: 100px 0px 0px 0px
 }
+
+.V{
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
 
 .Brewery{
 
@@ -408,12 +402,6 @@ p{
   color:rgb(50, 106, 131)
 }
 
-.V{
-  grid-column-start: 3;
-  grid-column-end: 8;
-  grid-row-start: 3;
-  grid-row-end: 3;
-}
 
 .B{
   grid-column-start: 3;
@@ -427,4 +415,45 @@ p{
   grid-column-end: 8;
   grid-row-start: 9;
   grid-row-end: 9;
+}
+
+
+.Dj{
+  
+  height: 700px;
+  display: flex;
+  justify-content:center; 
+  align-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(16, 29, 43, 0.605);
+  transition: 500ms
+  
+}
+
+.Dj:hover{
+  
+  height: 725px;
+  transition: ease-in-out, 1s
+  
+}
+
+.project4{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 10;
+  grid-row-end: 10;
+  padding: 50px;
+  margin: 200px 0px 0px 0px
+}
+.D{
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 11;
+  grid-row-end: 11;
+  
 }
