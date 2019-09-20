@@ -23,7 +23,9 @@ const Projects = () => {
                                     <a href="https://vicesnrewards.herokuapp.com"><img src={Vice} className="Vice" alt="Vice" /></a>
                                 </div>
 
-                                <p className="V"> This was is Full-Stack group project. The task was to building a full-stack application, we needed to build the API, server, and front-end React app.
+                                <p className="V"> 
+                                    Vice & Reward is a mobile budgeting app.
+                                    This is Full-Stack group project. The task was to building a full-stack application, we needed to build the API, server, and front-end React app.
                                 Here were the requirements:
                                 Backend: Must use express, mongoose and morgan dependencies
                                 must create your own API.
@@ -38,9 +40,9 @@ const Projects = () => {
                                     <a href="http://breweryfinderlocal.surge.sh"><img src={Brewery} className="Brewery" alt="Brewery" /></a>
                                 </div>
 
-                                <p className="B">This was a personal project app using 3rd party API and React.The site must integrate with an online API.
-                                Use the axios library to make client-side HTTP requests.Your site must have at least 3 views (pages) using React Router.
-                                Use Context, render-props, and Higher Order Component's where needed to help with writing DRY ('Don't Repeat Yourself') code.
+                                <p className="B"> This was a personal project app using 3rd party api.openbrewerydb and React. The site was to integrate with an online API.
+                                Use the axios library to make client-side HTTP requests.The site needed have at least 3 views (pages) using React Router,
+                                Context, render-props, and Higher Order Component.
                                 Was asked to use lifecycle methods like componentDidMount for managing HTTP requests.
                                 </p>
 

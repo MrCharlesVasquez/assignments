@@ -367,7 +367,7 @@ button{
     grid-template-columns: repeat (10 ,1fr);
     grid-template-rows: repeat (10 , 5vw);
     background-image: linear-gradient(rgb(37, 160, 113) , rgb(30, 222, 139), rgb(0, 128, 126));
-    position: static;
+    position: relative;
 }
 
 /* 
@@ -397,18 +397,13 @@ button{
     text-shadow: 3px 3px 2px rgb(52, 21, 8);
     z-index: 1;
 }
-/* 
-.MugGif{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end:4;
-} */
+
 
 .googleMap{
     height: 800px;
     width: 600px;
-   
+    display: flex;
+    justify-self: center;
 }
 
 

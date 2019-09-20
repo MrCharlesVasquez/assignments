@@ -209,6 +209,13 @@ span {
 .footList {
   font-size: 40px;
   font-family: lato;
+  
+}
+
+.footList >a {
+  font-size: 40px;
+  font-family: lato;
+  color:azure
 }
 
 /*?   link container */
